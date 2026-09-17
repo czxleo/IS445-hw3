@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leo Chen - Support Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Customer Support</h2>
+
+  <form>
+    <p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+    </p>
+
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+    </p>
+
+    <h4>Choose a Product Type</h4>
+
+    <input type="radio" id="phone" name="productType" value="phone">
+    <label for="phone">Phone</label><br>
+
+    <input type="radio" id="case" name="productType" value="case">
+    <label for="case">Case</label><br>
+
+    <input type="radio" id="earbuds" name="productType" value="earbuds">
+    <label for="earbuds">Earbuds</label><br>
+
+    <input type="radio" id="accessory" name="productType" value="accessory">
+    <label for="accessory">Accessory</label><br>
+
+    <h4>Select A Product</h4>
+
+    <input type="checkbox" id="boringphones" name="selectedProducts" value="boringphones">
+    <label for="boringphones">BoringPhones</label><br>
+
+    <input type="checkbox" id="boringphonecase" name="selectedProducts" value="boringphonecase">
+    <label for="boringphonecase">Phone Case</label><br>
+
+    <input type="checkbox" id="boringphoneearbuds" name="selectedProducts" value="boringphoneearbuds">
+    <label for="boringphoneearbuds">Earbuds</label><br>
+
+    <input type="checkbox" id="boringphoneaccessory" name="selectedProducts" value="boringphoneaccessory">
+    <label for="boringphoneaccessory">Accessory</label><br>
+
+    <h4>Select Multiple Items</h4>
+
+    <select name="items" multiple>
+      <option value="boringphone">BoringPhone</option>
+      <option value="boringphonecase">BoringPhone Case</option>
+      <option value="boringphoneearbuds">BoringPhone Earbuds</option>
+      <option value="boringphoneaccessory">BoringPhone Accessory</option>
+    </select>
+
+    <h4>Select a Delivery Date</h4>
+
+    <input type="date" name="delivery">
+
+    <p>
+      <input type="submit" value="Submit">
+    </p>
+
+  </form>
+
+  <p>
+    <a href="index.html">Back to Home</a>
+  </p>
+</body>
+</html>
